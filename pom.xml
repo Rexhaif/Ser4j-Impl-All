@@ -10,6 +10,7 @@
 
     <properties>
         <versionOf.Jackson>2.6.3</versionOf.Jackson>
+        <versionOf.Gson>2.4</versionOf.Gson>
     </properties>
 
     <dependencies>
@@ -49,6 +50,12 @@
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
             <version>${versionOf.Jackson}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${versionOf.Gson}</version>
         </dependency>
 
 
